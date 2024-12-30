@@ -8,7 +8,7 @@
 apt update
 apt upgrade
 apt update
-apt install php php-apache phpmyadmin mariadb apache2
+apt install php php-apache mariadb apache2
 
 # store config files
 
@@ -18,6 +18,6 @@ cp config.inc.php /data/data/com.termux/files/usr/share/phpmyadmin/config.inc.ph
 
 # htdocs folder storing php files 
 
-mkdir -p /data/data/com.termux/files/home/htdocs
-cp index.php /data/data/com.termux/files/home/htdocs/index.php
+mkdir -p ~/storage/shared
+cp index.php ~/storage/shared/htdocs/index.php
 
