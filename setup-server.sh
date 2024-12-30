@@ -18,6 +18,6 @@ cp config.inc.php /data/data/com.termux/files/home/storage/shared/htdocs/phpmyad
 
 # htdocs folder storing php files 
 
-mkdir -p ~/data/data/com.termux/files/home/storage/shared/htdocs
+mkdir -p /data/data/com.termux/files/home/storage/shared/htdocs
 cp index.php /data/data/com.termux/files/home/storage/shared/htdocs/index.php
 
