@@ -14,10 +14,10 @@ apt install php php-apache mariadb apache2
 
 cp httpd.conf /data/data/com.termux/files/usr/etc/apache2/httpd.conf
 cp httpd-vhosts.conf /data/data/com.termux/files/usr/etc/apache2/extra/httpd-vhosts.conf
-cp config.inc.php /data/data/com.termux/files/usr/share/phpmyadmin/config.inc.php 
+cp config.inc.php /data/data/com.termux/files/home/storage/shared/htdocs/phpmyadmin/config.inc.php 
 
 # htdocs folder storing php files 
 
-mkdir -p ~/storage/shared
-cp index.php ~/storage/shared/htdocs/index.php
+mkdir -p ~/data/data/com.termux/files/home/storage/shared/htdocs
+cp index.php /data/data/com.termux/files/home/storage/shared/htdocs/index.php
 
