@@ -26,7 +26,7 @@ This repository provides a set of configuration files and a script to set up a P
 ## Usage
 
 1. install git `pkg install git -y`
-2. clone the script `git clone https://github.com/eric2212/Setup-server-termux.git'
+2. clone the script `git clone https://github.com/eric2212/Setup-server-termux.git` 
 3. go to the folder directory `cd termux-php-server`
 4. Make the script executable by running `sh setup-server.sh`
 
